@@ -4,6 +4,7 @@ import com.uqbar.vainilla.GameScene
 import ar.pablitar.cajas.components.Cadena
 import java.awt.geom.AffineTransform
 import ar.pablitar.vainilla.commons.math.Vector2D
+import ar.pablitar.cajas.components.Rotadores
 
 class CajasGameScene extends GameScene {
   val root = new Cadena(

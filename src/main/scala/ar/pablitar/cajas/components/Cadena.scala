@@ -1,7 +1,6 @@
 package ar.pablitar.cajas.components
 
 import com.uqbar.vainilla.GameComponent
-import ar.pablitar.vainilla.commons.components.GameComponentWithTransform
 import ar.pablitar.cajas.CajasGameScene
 import java.awt.Color
 import java.awt.Graphics2D

@@ -1,14 +1,11 @@
-package ar.pablitar.cajas
+package ar.pablitar.cajas.components
 
-import com.uqbar.vainilla.GameComponent
-import ar.pablitar.cajas.components.Cadena
 import com.uqbar.vainilla.GameScene
 import com.uqbar.vainilla.DeltaState
-import ar.pablitar.vainilla.commons.math.Vector2D
-import com.uqbar.vainilla.events.constants.Key
+import com.uqbar.vainilla.GameComponent
 
 class Rotadores(c: Cadena) extends GameComponent[GameScene] {
-  val rotadoresList = c.allNodes().map {new Rotador(_, Vector2D(50, 100))}
+  val rotadoresList = c.allNodes().map {new Rotador(_, 50, 100)}
   val rotadoresIterator = 
     Iterator.continually(rotadoresList).flatten
   
