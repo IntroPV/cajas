@@ -4,7 +4,6 @@ import com.uqbar.vainilla.GameComponent
 import com.uqbar.vainilla.GameScene
 import com.uqbar.vainilla.DeltaState
 import com.uqbar.vainilla.events.constants.Key
-import ar.pablitar.vainilla.commons.math.Vector2D
 
 class Rotador(c: GameComponentWithTransform[_], pivotX: Double, pivotY:Double) extends GameComponent[GameScene] {
   val speed = Math.PI
